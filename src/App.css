@@ -1,3 +1,50 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1d6bc89ab2ba3c1f7633db965cd81c8aa5b1243e119ba3024893ae781b81ab94
-size 837
+body {
+  font-family: 'Itim', cursive;
+}
+
+iframe {
+  max-width: 100%;
+  min-height: 100%;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  align-items: center;
+  background-color: #fffbf2;
+  height: 100vh;
+}
+
+.main {
+  vertical-align: middle;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.popup-content {
+  margin: auto;
+  background: rgb(255, 255, 255);
+  max-width: 80%;
+  padding: 5px;
+  text-align: center;
+}
+
+.popup-arrow {
+  color: rgb(0, 0, 0);
+}
+
+[role='tooltip'].popup-content {
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  overflow: auto;
+}
+
+[data-popup='tooltip'].popup-overlay {
+  background: transparent;
+}
+

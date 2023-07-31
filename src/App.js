@@ -4,34 +4,30 @@ import './App.css';
 import Drawing from './Drawing';
 import React from 'react';
 import Video from './Video';
-import bearVideo from './videos/Bears.mov'
-import hpVideo from './videos/hp.mov'
-import momVideo from './videos/MomAndBaby.mov'
-import sigEpFootballVideo from './videos/football.mov'
-import whipVideo from './videos/Whip.mov'
 import Letter from "./Letter.js"
-import notes from "./notes/notes.json"
+import notes from "./resources/notes.json"
+import videos from "./resources/videos.json"
 
 const modalMap = {
-  "Bear": <Video src={bearVideo}/>,
+  "Bear": <Video src={videos["Bear"]}/>,
   "Cake": <Letter text={notes["Cake"]}/>,
   "Line":<Letter text={notes["Dash"]}/>,
   "165": <Letter text={notes["165"]}/>,
-  "Stick": <Video src={hpVideo}/>,
+  "Stick": <Video src={videos["Stick"]}/>,
   "Diving Board": null,
   "Jersey": <Letter text={notes["Jersey"]}/>,
   "Cello":<Letter text={notes["Violin"]}/>,
   "Beer":<Letter text={notes["Butterbeer"]}/>,
-  "Cube": null,
+  "Cube": <Letter text={notes["Cube"]}/>,
   "Saints":<Letter text={notes["Saints"]}/>,
   "Crutches":<Letter text={notes["Crutches"]}/>,
-  "Mom": <Video src={momVideo}/>,
-  "Comb":null,
-  "Gift":null,
-  "Whip": <Video src={whipVideo}/>,
-  "SigEp": <Video src={sigEpFootballVideo}/>,
-  "Glue":<Letter text={notes["Glue"]}/>,
-  "Football": <Video src={sigEpFootballVideo}/>,
+  "Mom": <Video src={videos["Mom"]}/>,
+  "Comb": null,
+  "Gift":<Video src={videos["Gift"]}/>,
+  "Whip": <Video src={videos["Whip"]}/>,
+  "SigEp": <><Video src={videos["SigEp"]}/><Letter text={notes["SigEp"]}/></>,
+  "Glue": <Letter text={notes["Glue"]}/>,
+  "Football": <Video src={videos["Football"]}/>,
   "Banana":<Letter text={notes["Peel"]}/>
 }
 
@@ -61,7 +57,7 @@ class App extends React.Component{
   }
 
   getOnClickContent(name){
-    return modalMap[name] === null ? "NOT FOUND! Happy birthday!" : modalMap[name];
+    return modalMap[name] === null ? "Coming Soon! Happy birthday!" : modalMap[name];
   }
   
   render() {
