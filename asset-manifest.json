@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mwheatley-app/static/css/main.08ca3e69.css",
+    "main.js": "/mwheatley-app/static/js/main.3a11f4fa.js",
+    "static/js/787.c5d1a1ad.chunk.js": "/mwheatley-app/static/js/787.c5d1a1ad.chunk.js",
+    "static/media/main.jpeg": "/mwheatley-app/static/media/main.1e42b4aadc616a472ae5.jpeg",
+    "index.html": "/mwheatley-app/index.html",
+    "main.08ca3e69.css.map": "/mwheatley-app/static/css/main.08ca3e69.css.map",
+    "main.3a11f4fa.js.map": "/mwheatley-app/static/js/main.3a11f4fa.js.map",
+    "787.c5d1a1ad.chunk.js.map": "/mwheatley-app/static/js/787.c5d1a1ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08ca3e69.css",
+    "static/js/main.3a11f4fa.js"
+  ]
+}
