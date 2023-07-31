@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MWheatleyBirthday/static/css/main.08ca3e69.css",
-    "main.js": "/MWheatleyBirthday/static/js/main.74087d40.js",
+    "main.css": "/MWheatleyBirthday/static/css/main.923eae13.css",
+    "main.js": "/MWheatleyBirthday/static/js/main.773b8df9.js",
     "static/js/787.4dd3e17f.chunk.js": "/MWheatleyBirthday/static/js/787.4dd3e17f.chunk.js",
     "static/media/main.jpeg": "/MWheatleyBirthday/static/media/main.1e42b4aadc616a472ae5.jpeg",
     "index.html": "/MWheatleyBirthday/index.html",
-    "main.08ca3e69.css.map": "/MWheatleyBirthday/static/css/main.08ca3e69.css.map",
-    "main.74087d40.js.map": "/MWheatleyBirthday/static/js/main.74087d40.js.map",
+    "main.923eae13.css.map": "/MWheatleyBirthday/static/css/main.923eae13.css.map",
+    "main.773b8df9.js.map": "/MWheatleyBirthday/static/js/main.773b8df9.js.map",
     "787.4dd3e17f.chunk.js.map": "/MWheatleyBirthday/static/js/787.4dd3e17f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08ca3e69.css",
-    "static/js/main.74087d40.js"
+    "static/css/main.923eae13.css",
+    "static/js/main.773b8df9.js"
   ]
 }
