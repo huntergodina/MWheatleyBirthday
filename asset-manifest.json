@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mwheatley-app/static/css/main.08ca3e69.css",
-    "main.js": "/mwheatley-app/static/js/main.3a11f4fa.js",
-    "static/js/787.c5d1a1ad.chunk.js": "/mwheatley-app/static/js/787.c5d1a1ad.chunk.js",
-    "static/media/main.jpeg": "/mwheatley-app/static/media/main.1e42b4aadc616a472ae5.jpeg",
-    "index.html": "/mwheatley-app/index.html",
-    "main.08ca3e69.css.map": "/mwheatley-app/static/css/main.08ca3e69.css.map",
-    "main.3a11f4fa.js.map": "/mwheatley-app/static/js/main.3a11f4fa.js.map",
-    "787.c5d1a1ad.chunk.js.map": "/mwheatley-app/static/js/787.c5d1a1ad.chunk.js.map"
+    "main.css": "/MWheatleyBirthday/static/css/main.08ca3e69.css",
+    "main.js": "/MWheatleyBirthday/static/js/main.74087d40.js",
+    "static/js/787.4dd3e17f.chunk.js": "/MWheatleyBirthday/static/js/787.4dd3e17f.chunk.js",
+    "static/media/main.jpeg": "/MWheatleyBirthday/static/media/main.1e42b4aadc616a472ae5.jpeg",
+    "index.html": "/MWheatleyBirthday/index.html",
+    "main.08ca3e69.css.map": "/MWheatleyBirthday/static/css/main.08ca3e69.css.map",
+    "main.74087d40.js.map": "/MWheatleyBirthday/static/js/main.74087d40.js.map",
+    "787.4dd3e17f.chunk.js.map": "/MWheatleyBirthday/static/js/787.4dd3e17f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08ca3e69.css",
-    "static/js/main.3a11f4fa.js"
+    "static/js/main.74087d40.js"
   ]
 }
